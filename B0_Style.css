@@ -1,0 +1,104 @@
+stylesheet {
+    margin:auto
+}
+
+
+.Bann_Header {
+    background: url("./Pictures/Bann_Header.png");    /* pour insérer le lien du fichier saisir  ./   => selectionn' dossier d'emplacemt => selection' le fichier */
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:orange;
+}
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 80;
+text-align: justify;
+background-color: aquamarine;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80;
+    font-weight: 800;
+    height: 80;
+    color: rgb(97, 6, 26);
+    background-color: blanchedalmond;
+    padding: 8px 16px;
+}
+
+h2 {
+    font-size: 30;
+    font-weight: 200;
+    height: 40;
+    color: blue;
+    background-color:rgb(42, 179, 133);
+}
+
+h3 {
+    font-size: 25;
+    font-weight: 200;
+    height: 25;
+    color: rgb(3, 3, 78);
+    text-decoration:underline;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color:  rgb(255, 0, 25);
+    margin: 50px 0px 50px 0px;
+}
+
+.Struct {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin: 50px 15px 50px 15px;
+}
+
+.ImgStruct1, .ImgStruct2 {
+    width: 300px;
+    height: 200px;  
+    
+}
+
+.struct1, .struct2 {
+    font-style: italic;
+    color:rgb(59, 59, 59);
+    font-weight: 10px;
+    height: 10px;
+    width: 300px;
+}
+
+
+.ancre_h1 {
+    text-align: center;
+    border-color: black;
+    background-color: chocolate;
+    
+}
+}
+
+/*
+
+
+
+#ancre_h1 {
+    text-align: center;
+}
+    */

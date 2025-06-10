@@ -2,7 +2,6 @@ stylesheet {
     margin:auto
 }
 
-
 .Bann_Header {
     background: url("./Pictures/Bann_Header.png");    /* pour insérer le lien du fichier saisir  ./   => selectionn' dossier d'emplacemt => selection' le fichier */
     background-size:cover;
@@ -92,7 +91,7 @@ footer{
     background-color: chocolate;
     
 }
-}
+
 
 /*
 
